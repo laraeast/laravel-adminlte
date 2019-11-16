@@ -1,0 +1,14 @@
+// Icons
+@import "./icons";
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "~daterangepicker/daterangepicker.css";
+@import "~bootstrap-colorpicker/src/sass/colorpicker";
+@import "~tempusdominus-bootstrap-4/src/sass/tempusdominus-bootstrap-4";
+@import "~bootstrap4-duallistbox/dist/bootstrap-duallistbox.css";
+@import "./editor";
+@import "~admin-lte/build/scss/AdminLTE";
+/*!rtl:begin:ignore*/
+@import "~icheck-bootstrap/icheck-bootstrap.css";
+/*!rtl:end:ignore*/
+@import "./select2";
