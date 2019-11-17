@@ -62,6 +62,7 @@ class AdminLte
         copy(__DIR__.'/stubs/_editor.scss', resource_path('sass/adminlte/_editor.scss'));
         copy(__DIR__.'/stubs/_icons.scss', resource_path('sass/adminlte/_icons.scss'));
         copy(__DIR__.'/stubs/_select2.scss', resource_path('sass/adminlte/_select2.scss'));
+        copy(__DIR__.'/stubs/_icheck.scss', resource_path('sass/adminlte/_icheck.scss'));
         copy(__DIR__.'/stubs/adminlte.scss', resource_path('sass/adminlte/adminlte.scss'));
         copy(__DIR__.'/stubs/bootstrap.js', resource_path('js/adminlte/bootstrap.js'));
         copy(__DIR__.'/stubs/adminlte.js', resource_path('js/adminlte/adminlte.js'));

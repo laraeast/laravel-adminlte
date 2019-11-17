@@ -8,7 +8,5 @@
 @import "~bootstrap4-duallistbox/dist/bootstrap-duallistbox.css";
 @import "./editor";
 @import "~admin-lte/build/scss/AdminLTE";
-/*!rtl:begin:ignore*/
-@import "~icheck-bootstrap/icheck-bootstrap.css";
-/*!rtl:end:ignore*/
+@import "./icheck";
 @import "./select2";
