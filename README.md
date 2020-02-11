@@ -19,6 +19,6 @@ npm install && npm run adminlte:dev
 4 - Runing demo page.
 ```
 Route::get('/', function () {
-    return view('layouts.adminlte');
+    return view('layouts.adminlte.app');
 });
 ```

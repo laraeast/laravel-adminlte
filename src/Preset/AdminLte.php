@@ -83,7 +83,7 @@ class AdminLte
      */
     protected static function updateLayout()
     {
-        copy(__DIR__.'/stubs/adminlte.blade.php', resource_path('views/layouts/adminlte.blade.php'));
+        copy(__DIR__.'/stubs/adminlte/app.blade.php', resource_path('views/layouts/adminlte/app.blade.php'));
     }
 
     /**
@@ -101,7 +101,7 @@ class AdminLte
         if (! $filesystem->isDirectory($directory = resource_path('sass/adminlte'))) {
             $filesystem->makeDirectory($directory, 0755, true);
         }
-        if (! $filesystem->isDirectory($directory = resource_path('views/layouts'))) {
+        if (! $filesystem->isDirectory($directory = resource_path('views/layouts/adminlte'))) {
             $filesystem->makeDirectory($directory, 0755, true);
         }
     }
