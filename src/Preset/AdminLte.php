@@ -84,6 +84,13 @@ class AdminLte
     protected static function updateLayout()
     {
         copy(__DIR__.'/stubs/adminlte/app.blade.php', resource_path('views/layouts/adminlte/app.blade.php'));
+
+        $filesystem = new Filesystem;
+
+        if (! $filesystem->isDirectory($directory = resource_path('views/auth'))) {
+            $filesystem->makeDirectory($directory, 0755, true);
+            $filesystem->copyDirectory(__DIR__.'/stubs/auth', resource_path('views/auth'));
+        }
     }
 
     /**
