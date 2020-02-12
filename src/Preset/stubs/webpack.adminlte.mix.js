@@ -17,6 +17,9 @@ mix.copyDirectory('node_modules/admin-lte/dist/img', 'public/images');
 mix.js('resources/js/adminlte/adminlte.js', 'public/js')
    .sass('resources/sass/adminlte/adminlte.scss', 'public/css');
 
+mix.js('resources/js/adminlte/auth.js', 'public/js')
+   .sass('resources/sass/adminlte/auth.scss', 'public/css');
+
 // Handle rtl
 mix.webpackConfig({
     plugins: [
@@ -31,4 +34,5 @@ mix.version([
     'public/js/*',
     'public/css/*',
     'public/css/adminlte.rtl.css',
+    'public/css/auth.rtl.css',
 ]);
